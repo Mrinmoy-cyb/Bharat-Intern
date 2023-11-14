@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/feathers-macro-dark-background-blue-light-digital-3840x2160-7367.jpg);
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+    height: 100vh;
+    text-align: center;
+   
+}
+
+#calcTemp {
+    padding: 40px 82px;
+    min-height: 200px;
+    background-color: #309aaf;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+label {
+    font-size: 30px;
+    line-height: 78px;
+    border-radius: 5px;
+}
+
+#temp {
+    width: 120px;
+    height: 36px;
+    border-radius: 5px;
+    margin: 12px;
+    padding: 8px;
+    font-size: 30px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#temp_diff {
+    width: 130px;
+    height: 36px;
+    border-radius: 7px;
+    margin: 12px;
+    font-size: 30px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#submit {
+    width: 100px;
+    border-radius: 5px;
+    margin: 30px 0 20px 0;
+    font-size: 18px;
+    background-color: rgb(218, 220, 229);
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+
+#submit:hover{
+    background-color: rgb(61, 150, 194);
+    cursor: pointer;
+}
+
+#result{
+    font-size: 30px;
+}
